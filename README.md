@@ -1,5 +1,9 @@
-This is a didactical project, coded while studying Physics I.
+## What is this?
+This is a didactical project coded while studying Physics I. It simulates and plots the trajectories on the plane of any number of bodies, each influenced by the others' gravitational force.
 
-The code theoretically can runs simulations in any number of dimensions. It's been tried just on 2.
+Parameters can be easily customized
 
 
+### Technologies
+Lagnauge: Python.
+Libraries used: numpy, matplotib.
