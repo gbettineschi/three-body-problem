@@ -86,7 +86,7 @@ def compute_trajectories(masses, num_of_planets, positions, velocities): # how m
 
 G = 1
 T = 1000000
-D_T = 0.0001
+D_T = 0.0005
 DIMENSIONS = 2
 PLOT_ITER = 100
 
