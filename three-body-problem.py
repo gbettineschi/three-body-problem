@@ -72,11 +72,13 @@ def compute_trajectories(masses, num_of_planets, positions, velocities): # how m
         if t % PLOT_ITER == 0:
             plt.pause(0.005)
             plt.clf() # clear the figure
-
+            plt.gca().set_aspect('equal', adjustable='box')
+            
             # plot: each planet with a small colored circle, the whole trajectory with a continuous line for each planet
             for i in range(num_of_planets):
                 plt.plot(positions_traj[0:t+1, i, 0], positions_traj[0:t+1, i, 1], c = cmap[i])
                 plt.plot(positions_traj[t, i, 0], positions_traj[t, i, 1], 'o', c = cmap[i])
+        
     plt.show()
             
             
