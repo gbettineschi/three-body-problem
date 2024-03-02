@@ -6,7 +6,7 @@ The system parameters (gravitational constant, time steps, etc) can be easily cu
 ### About the physics and math behind
 To work, the script clearly needs to compute forces and accelrations at each instant, i.e. it needs to solve ordinary differential equations. It solves them using numerical method; at the moment:
 - the Euler method is implemented and used;
-- there is an incomplete function where the more accurate Runge-Kutta methods are supposed to be implemented
+- there is an incomplete function where the more accurate Runge-Kutta methods are supposed to be implemented.
 
 ### Technologies
 Lagnauge: Python.
