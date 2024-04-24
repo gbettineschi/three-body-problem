@@ -1,5 +1,5 @@
 # What is this?
-This is a didactical project coded while studying Physics I. It simulates and plots the trajectories on the plane of any number of bodies, each influenced by the others' gravitational force. 
+This is a didactical project coded while studying Physics I with professor Luca Saglietti. It simulates and plots the trajectories on the plane of any number of bodies, each influenced by the others' gravitational force. 
 
 The system parameters (gravitational constant, time steps, etc) can be easily customized. The code can actually run simulation and computations in n dimensions, the plotting only works in 2 dimensions.
 
