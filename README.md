@@ -1,5 +1,5 @@
 # What is this?
-This is a didactical project coded while studying Physics I with professor Luca Saglietti. It simulates and plots the trajectories on the plane of any number of bodies, each influenced by the others' gravitational force. 
+The program simulates and plots the trajectories on the plane of any number of bodies, each influenced by the others' gravitational force.
 
 The system parameters (gravitational constant, time steps, etc) can be easily customized. The code can actually run simulation and computations even in 3 dimensions, the plotting only works in 2 dimensions.
 
@@ -11,3 +11,7 @@ To work, the script clearly needs to compute forces and accelrations at each ins
 ### Technologies
 Lagnauge: Python.
 Libraries used: numpy, matplotib.
+
+### Credits
+This is a didactical project coded while studying Physics I with professor Luca Saglietti.
+
